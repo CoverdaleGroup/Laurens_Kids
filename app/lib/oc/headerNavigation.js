@@ -10,20 +10,20 @@ function headernavigation() {
         template: template
     };
 
-    function template() {
+    function template() {  
         return [
             '<section class="header-navigation">',
             '<div class="row">',
             '<div class="col-xs-12 col-sm-6 pull-right">',
             '<ul>',
             '<li><a href="admin">My Account</a></li>',
-            '<li><span style="color: #0877a7;">&nbsp;&bull;&nbsp;</span></li>',
+            '<li><span style="color: #fff;">&nbsp;&bull;&nbsp;</span></li>',
             '<li><a href="order">Orders</a></li>',
-            '<li><span style="color: #0877a7;">&nbsp;&bull;&nbsp;</span></li>',
+            '<li><span style="color: #fff;">&nbsp;&bull;&nbsp;</span></li>',
             '<li><a href="cart">Cart&nbsp;',
             '<span ng-if="currentOrder.LineItems.length" ng-bind="cartCount" class="badge"></span>',
             '</a></li>',
-            '<li><span style="color: #0877a7;">&nbsp;&bull;&nbsp;</span></li>',
+            '<li><span style="color: #fff;">&nbsp;&bull;&nbsp;</span></li>',
             '<li><a ng-click="Logout()">Log Off</a></li>',
             '</ul>',
             '</div>',

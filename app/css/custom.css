@@ -241,7 +241,8 @@ a:hover, a:visited, a:link, a:active
 
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -250,7 +251,8 @@ body {
 }
 
 input, button, select, textarea {
-    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
 }
 
 .btn-info {
@@ -280,8 +282,8 @@ input, button, select, textarea {
 
 .navbar-default {
 
-    background-color: #0877a7;
-    border-color: #0877a7;
+    background-color: #eb008b;
+    border-color: #eb008b;
 }
 
 .navbar-default .navbar-nav > li > a {
