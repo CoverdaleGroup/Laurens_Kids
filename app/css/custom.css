@@ -27,7 +27,7 @@ Authors: Coverdale Group
 /******************/
 
 #content {
-    border-bottom:20px solid #636467;
+    border-bottom:20px solid #eb008b;
     min-height:900px;
     padding-bottom:60px;
 }
@@ -51,7 +51,7 @@ Authors: Coverdale Group
 
 .header-navigation {
     height: 30px;
-    background-color: #f7f7f7;
+    background-color: #eb008b;
     color: #ffffff;
 }
 
@@ -71,7 +71,7 @@ Authors: Coverdale Group
 }
 
 .header-navigation .badge {
-    background-color:#0060A0;
+    background-color:#fff;
     margin-left:3px;
 }
 
@@ -88,7 +88,8 @@ Authors: Coverdale Group
 .category-navigation .navbar .container .navbar-nav.pull-right li a,
 .category-navigation .navbar .container-view .navbar-nav.pull-right li a {
     padding:10px;
-    color: #8ba6c3;
+    /*color: #8ba6c3;*/
+	color: #fff;
     font-weight: normal;
 }
 
@@ -167,7 +168,7 @@ body {
 
 
 body a {
-    color: #0877A7;
+    color: #008996;
     font-size: 16px;
     font-weight: normal;
 }
@@ -178,18 +179,19 @@ a:hover, a:visited, a:link, a:active
 }
 
 .panel-nav {
-    margin-right:15px;
+    
+	-right:15px;
 }
 
 .panel-nav ul li ul li a {
-    color: #0877a7;
+    color: #008996;
     font-size: 14px;
     font-weight: bold;
 
 }
 
 .panel-nav ul li ul li ul li a {
-    color: #3db6ea;
+    color: #008996;
     font-size: 14px;
     font-weight: normal;
 
@@ -257,16 +259,12 @@ input, button, select, textarea {
 
 .btn-info {
     border-color: #0877A7;
-}
-
-.btn-info {
     background-color: #0877A7;
 }
 
 .btn-primary {
     background-color: #043B56;
 }
-
 
 .jumbotron {
     /*margin: 15px;*/
@@ -365,12 +363,11 @@ input, button, select, textarea {
     height: auto;
 }
 
-/*
 .panel-category-list ul li .well {
-
-    height: 245px;
+	padding: 45px;
+	
+	
 }
-*/
 .panel-category-list ul li a {
     padding: 0;
 }
