@@ -121,6 +121,11 @@ Authors: Coverdale Group
     font-size:1.2em;
 }
 
+.container-view {
+	
+	margin-top: 0px;
+}
+
 .contact-us .panel-heading .panel-title {
     font-size:1.6em;
     padding:0
